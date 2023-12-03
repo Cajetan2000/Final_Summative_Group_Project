@@ -1,0 +1,49 @@
+
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Python Flask Upload and Display Video</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+</head>
+<body>
+    <h1 align="center">Trafic Management System</h1>
+    <div class="container">
+        <div class="row">
+            <h2>Select a video to upload</h2>
+            <p>
+                {% with messages = get_flashed_messages() %}
+                {% if messages %}
+                <ul>
+                    {% for message in messages %}
+                    <li>{{ message }}</li>
+                    {% endfor %}
+                </ul>
+                {% endif %}
+                {% endwith %}
+            </p>
+            {% if filename %}
+            <div class="col-md-6">
+                <video controls autoplay width="300" height="200">
+                    <source src="{{ url_for('display_video', filename) }}" type="video/mp4">
+                    Your browser does not support the video tag.
+                </video>
+            </div>
+            {% endif %}
+            <div class="col-md-6">
+                <form method="post" action="/" enctype="multipart/form-data">
+                    <dl>
+                        <p>
+                            <input type="file" name="file" class="form-control" autocomplete="off" accept="video/mp4" required>
+                        </p>
+                    </dl>
+                    <p>
+                        <input type="submit" value="Submit" class="btn btn-info">
+                    </p>
+                </form>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
