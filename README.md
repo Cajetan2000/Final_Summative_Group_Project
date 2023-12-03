@@ -91,6 +91,6 @@ Here's a brief explanation of the major components and functionality of the code
 - The processed video frames are streamed back to the web interface.
 
 ## Contributions
-- Caletan Songwae
+- Cajetan Songwae
 - Clovis Mushagalusa Cirubakaderha
 
