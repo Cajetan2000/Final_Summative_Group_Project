@@ -1,0 +1,28 @@
+ID,Speed,Speed Status,Direction,Date
+1,25.466597246783135,Over Speeding,Incoming,Sun Dec  3 17:41:34 2023
+0,21.565558278873713,Over Speeding,Incoming,Sun Dec  3 17:41:45 2023
+2,25.03638796060931,Over Speeding,Incoming,Sun Dec  3 17:41:52 2023
+12,27.823337633503517,Over Speeding,Incoming,Sun Dec  3 17:42:58 2023
+15,27.42482263855062,Over Speeding,Incoming,Sun Dec  3 17:43:17 2023
+9,19.26023722263692,Normal Speed,Incoming,Sun Dec  3 17:43:31 2023
+17,25.428733797796568,Over Speeding,Incoming,Sun Dec  3 17:44:05 2023
+26,18.184400694041127,Normal Speed,Incoming,Sun Dec  3 17:44:17 2023
+56,14.353163621610753,Normal Speed,Incoming,Sun Dec  3 17:45:08 2023
+50,18.441184574348554,Normal Speed,Incoming,Sun Dec  3 17:45:34 2023
+62,16.244080757300736,Normal Speed,Incoming,Sun Dec  3 17:46:19 2023
+86,21.468688610912984,Over Speeding,Out Going,Sun Dec  3 17:47:26 2023
+73,14.29761549451332,Normal Speed,Incoming,Sun Dec  3 17:47:26 2023
+89,18.728854167545258,Normal Speed,Out Going,Sun Dec  3 17:48:21 2023
+97,18.410465688205033,Normal Speed,Out Going,Sun Dec  3 17:49:02 2023
+100,15.917513736035668,Normal Speed,Out Going,Sun Dec  3 17:49:08 2023
+115,20.564719851128235,Over Speeding,Out Going,Sun Dec  3 17:49:44 2023
+117,18.524920840117343,Normal Speed,Out Going,Sun Dec  3 17:50:04 2023
+125,17.3925358987914,Normal Speed,Out Going,Sun Dec  3 17:50:36 2023
+126,17.342936818025038,Normal Speed,Out Going,Sun Dec  3 17:50:40 2023
+124,13.70320122944519,Normal Speed,Out Going,Sun Dec  3 17:50:43 2023
+127,12.577150616921566,Normal Speed,Out Going,Sun Dec  3 17:51:00 2023
+132,17.34208429660735,Normal Speed,Out Going,Sun Dec  3 17:51:06 2023
+131,13.98677769884607,Normal Speed,Out Going,Sun Dec  3 17:51:16 2023
+140,18.13418061624171,Normal Speed,Out Going,Sun Dec  3 17:51:26 2023
+146,17.632797541088276,Normal Speed,Incoming,Sun Dec  3 17:52:18 2023
+158,20.686007132664493,Over Speeding,Out Going,Sun Dec  3 17:52:24 2023
